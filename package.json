@@ -23,10 +23,13 @@
     "webpack": "^4.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "./bin/www",
+    "build": "webpack",
     "dev": "node webpack.config.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.13"
   }
 }
