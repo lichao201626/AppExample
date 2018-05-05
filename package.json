@@ -9,6 +9,8 @@
     "css-loader": "^0.28.11",
     "debug": "~2.6.9",
     "ejs": "^2.5.8",
+    "elasticsearch": "^14.2.2",
+    "elasticsearch-browser": "^14.2.2",
     "express": "~4.16.0",
     "html-loader": "^0.5.5",
     "http-errors": "~1.6.2",
